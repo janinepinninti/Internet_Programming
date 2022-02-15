@@ -1,0 +1,22 @@
+#IdOne {
+    color: red;
+}
+#IdTwo {
+    background-color: black;
+    color: white;
+    display: inline;
+}
+#IdThree {
+    color: green;
+}
+#IdFour {
+    background-color: darkred;
+    color: green;
+    display: inline;
+}
+.part3{
+    color: green;
+}
+#IdFive {
+    color: green;
+}
