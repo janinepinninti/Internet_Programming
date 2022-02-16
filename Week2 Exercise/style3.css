@@ -1,0 +1,15 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.grid-item {
+    padding: 20px;
+    background-color: skyblue;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
