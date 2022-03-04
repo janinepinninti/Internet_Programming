@@ -28,28 +28,28 @@ function myHoverFunction2() {
 
 function myLoadFunction2() {
     var element1 = document.getElementById ('pageheading');
-    element1.addEventListener('mouseover', myHoverFunction1);
+    element1.addEventListener('mouseenter', myHoverFunction1);
 
     var element2 = document.getElementById ('pagecontent');
-    element2.addEventListener('mouseover', myHoverFunction2);
+    element2.addEventListener('mouseenter', myHoverFunction2);
 } 
 
 function myMouseOut1() {
     var element1 = document.getElementById ('pageheading');
-    element1.firstChild.nodeValue = 'This is the New heading when out';
+    element1.firstChild.nodeValue = 'This is the New heading when mouse leave';
 } 
 
 function myMouseOut2() {
     var element2 = document.getElementById ('pagecontent');
-    element2.firstChild.nodeValue = 'This is the New Content when out';
+    element2.firstChild.nodeValue = 'This is the New Content when mouse leave';
 } 
 
 function myLoadFunction3() {
     var element1 = document.getElementById ('pageheading');
-    element1.addEventListener('mouseout', myMouseOut1);
+    element1.addEventListener('mouseleave', myMouseOut1);
 
     var element2 = document.getElementById ('pagecontent');
-    element2.addEventListener('mouseout', myMouseOut2);
+    element2.addEventListener('mouseleave', myMouseOut2);
 } 
 
 document.addEventListener ('DOMContentLoaded', myLoadFunction1);
