@@ -36,7 +36,7 @@ function myLoadFunction2() {
 
 function myMouseOut1() {
     var element1 = document.getElementById ('pageheading');
-    element1.firstChild.nodeValue = 'This is the New heading when mouse leave';
+    element1.firstChild.nodeValue = 'This is the New Heading when mouse leave';
 } 
 
 function myMouseOut2() {
