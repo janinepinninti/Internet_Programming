@@ -5,7 +5,7 @@ function myInterval(){
 }
 
 function myClickEvent() {
-    setInterval(myInterval, 1000);
+    setInterval(myInterval, 10);
 }
 function myLoadFunction() {
     var element = document.getElementById ('circle');
