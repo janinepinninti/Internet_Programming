@@ -37,4 +37,4 @@ const myChart = new Chart(ctx, {
 });
 }
 
-document.addEventListener('DOMContentLoaded', myLoadFunction)
+document.addEventListener('DOMContentLoaded', myLoadFunction);
