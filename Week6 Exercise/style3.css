@@ -1,0 +1,22 @@
+header{
+    background-color: rgb(228, 144, 207);
+    min-height: 40px;
+    color: rgba(12, 8, 8, 0.89);
+    font-size: 30px;
+    font-style: oblique;
+}
+
+#myChart{
+    background-color: rgb(245, 245, 245);
+    min-height: 590px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+footer{
+    background-color: rgb(245, 132, 132);
+    min-height: 20px;
+    color: white;
+    text-align: center;
+    font-style: oblique;
+}
